@@ -1,0 +1,15 @@
+meta {
+  name: uploads an image
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://pet/{petId}/uploadImage
+  body: none
+  auth: none
+}
+
+params:path {
+  petId: 
+}

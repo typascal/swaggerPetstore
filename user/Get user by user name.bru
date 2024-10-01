@@ -1,0 +1,15 @@
+meta {
+  name: Get user by user name
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://user/{username}
+  body: none
+  auth: none
+}
+
+params:path {
+  username: 
+}
